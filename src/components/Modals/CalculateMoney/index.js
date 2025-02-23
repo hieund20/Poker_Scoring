@@ -72,7 +72,7 @@ export const CalculateMoneyModal = ({
         <Box sx={{ marginY: "16px" }}>
           <TextField
             id="outlined-basic"
-            label="Nhập số tiền tương ứng với 1 điểm"
+            label="Nhập số tiền (vnđ) tương ứng với 1 điểm"
             variant="outlined"
             sx={{ width: "100%", height: "100%" }}
             onChange={(e) => setMoneyPerPoint(e.target.value)}
