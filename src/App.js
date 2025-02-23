@@ -40,10 +40,10 @@ function App() {
   const [scoreRows, setScoreRows] = useState([[]]);
 
   const onAddPlayer = (data) => {
-    if (tableHeads.length === 4) {
-      enoughPlayerNotify();
-      return;
-    }
+    // if (tableHeads.length === 4) {
+    //   enoughPlayerNotify();
+    //   return;
+    // }
 
     if (tableHeads.includes(data?.name)) {
       sameNameNotify();
@@ -96,7 +96,7 @@ function App() {
 
   return (
     <div className="App">
-      <Container maxWidth="lg" sx={{ marginY: "32px" }}>
+      <Container maxWidth="xl" sx={{ marginY: "32px" }}>
         <Box component="section">
           <Typography variant="h5" sx={{ marginY: "48px" }} fontWeight={"bold"}>
             Tính điểm Tiến lên miền nam ♠️♥️♦️♣️
