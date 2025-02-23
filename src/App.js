@@ -156,8 +156,8 @@ function App() {
                 <TableHead>
                   <TableRow>
                     {tableHeads.map((item, index) => (
-                      <TableCell align="center" key={index}>
-                        <Typography variant="h6" fontWeight={"bold"}>
+                      <TableCell align="center" key={index} width={"80%"}>
+                        <Typography variant="h7" fontWeight={"bold"}>
                           {item}
                         </Typography>
                       </TableCell>
@@ -219,7 +219,7 @@ function App() {
         </Box>
 
         <Box className="footer">
-          <Typography variant="h5" sx={{ marginY: "48px" }}>
+          <Typography variant="h6" sx={{ marginY: "48px" }}>
             Developed by{" "}
             <a
               href="https://github.com/hieund20"
