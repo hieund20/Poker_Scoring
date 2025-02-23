@@ -98,8 +98,18 @@ function App() {
     <div className="App">
       <Container maxWidth="xl" sx={{ marginY: "32px" }}>
         <Box component="section">
-          <Typography variant="h5" sx={{ marginY: "48px" }} fontWeight={"bold"}>
+          <Typography variant="h5" sx={{ marginY: "32px" }} fontWeight={"bold"}>
             Tính điểm Tiến lên miền nam ♠️♥️♦️♣️
+          </Typography>
+          <Typography variant="h6">
+            Developed by{" "}
+            <a
+              href="https://github.com/hieund20"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Hieu Nguyen
+            </a>
           </Typography>
 
           <Box
@@ -218,18 +228,9 @@ function App() {
           </Box>
         </Box>
 
-        <Box className="footer">
-          <Typography variant="h6" sx={{ marginY: "48px" }}>
-            Developed by{" "}
-            <a
-              href="https://github.com/hieund20"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Hieu Nguyen
-            </a>
-          </Typography>
-        </Box>
+        {/* <Box className="footer">
+          
+        </Box> */}
       </Container>
 
       <NewTurnAddModal
